@@ -76,7 +76,7 @@ const Register = (props) => {
                 <div className="col-6">
                     <div className="form-group">
                         <input type="password" name="rePassword" id="rePassword" onChange={handleChange} className="form-control" placeholder="Enter repassword" aria-describedby="helpId4" />
-                        <small id="helpId4" className="text-muted">E.g.: XXXXXXX</small>
+                        <small id="helpId4" className="text-muted"></small>
                     </div>
                 </div>
             </div>
