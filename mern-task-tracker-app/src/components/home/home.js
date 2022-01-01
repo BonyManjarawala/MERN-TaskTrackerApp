@@ -70,7 +70,7 @@ const Home = (props) => {
                             <div className="form-group">
                                 <label htmlFor="">Title of task :</label>
                                 <input type="text" className="form-control" value={task.title} name="title" id="title" onChange={changeHandle} placeholder='Enter title of task' aria-describedby="helpId" />
-                                <small id="helpId" className="text-muted">E.g.: Go to GYM</small>
+                                <small id="helpId" className="text-muted"></small>
                             </div>
                         </div>
                     </div>
